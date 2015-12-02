@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" class="ie ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="ie ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="ie ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<html>
+	<head>
+		<title>Progress Bar</title>
+		<script language="JavaScript" type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/progress_bar.css">
+		<script src="../jquery/progressbar.js"></script>
+	</head>
+	<body>
+		<div id="progressbar-section">
+			<h2>Progress Bar</h2>
+			<div class="progress-bar-fill-color">
+				<div class="progress-bar-label">&nbsp;</div>
+				<span class="pg1">0%</span>
+			</div>
+			<br/>
+			<div class="progress-bar-fill-color">
+				<div class="progress-bar-label1">&nbsp;</div>
+				<span class="pg2">0%</span>
+			</div>
+			<br/>
+			<div class="progress-bar-fill-color">
+				<div class="progress-bar-label2">&nbsp;</div>
+				<span class="pg3">0%</span>
+			</div>
+			</br>
+			<select class="progressBarControl">
+				<option value="Progress1">Progress1</option>
+				<option value="Progress2">Progress2</option>
+				<option value="Progress3">Progress3</option>
+			</select>
+			<button class="button" type="button" value="+25">+25</button>
+			<button class="button" type="button" value="+10">+10</button>
+			<button class="button" type="button" value="-25">-25</button>
+			<button class="button" type="button" value="-10">-10</button>
+		</div>
+	</body>
+</html>
